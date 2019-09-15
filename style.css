@@ -1,0 +1,134 @@
+html,body,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+body {
+    margin: 0 ;
+    font-family: "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.d-flex {
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.page-header{
+    background-color: #1DA1F2;
+}
+.logo{
+    color: #FFFFFF;
+}
+.menu-list li{
+    color: #D8EBFB; 
+    padding: 32px;
+    margin-right: 20px;
+}
+.active{
+    color:#FFFFFF;
+    border-bottom:2px solid #FFFFFF; 
+}
+.menu-list li:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+    border-bottom:2px solid #FFFFFF;
+}
+.search input{
+    margin-right: 16px;
+    background-color:#D8D8D8;
+    border: 1px solid #1DA1F2;
+    border-radius: 10px;
+    padding:8px 16px;
+}
+.user{
+    position: relative;
+    padding-right:45px;
+    cursor: pointer;
+    color: #D8EBFB;
+}
+.icon{
+    position: absolute;
+    top:55%;
+    left:70%;
+    transform: translateY(-50%);
+}
+section{
+    background-color: #F5F8FA;
+}
+.tics{
+    margin: 64px 0px;
+}
+.line{
+    margin-left: 35px;
+}
+.social{
+    position: relative;
+}
+.line img{
+    position: absolute;
+    top: 50%;
+    left:0;
+    transform: translate(0%,-50%);
+}
+.list{
+    margin-bottom: 30px;
+    color: #3A3A3D;
+}
+.list-item li{
+    color: #86919E;
+    display: inline;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.list-item li:hover{
+    color: black;
+    cursor: pointer;
+    border-bottom:2px solid #1DA1F2;
+}
+.active_item{
+    color:black;
+    border-bottom:2px solid #1DA1F2; 
+}
+.list-item li{
+    padding: 0px;
+    margin-right: 32px;
+}
+.head{
+    background-color: #F5F8FA;
+}
+.static,td,th{
+    border: 1px solid #F1F1F3;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+.static{
+    width: 100%;
+    color: #3A3A3D;
+}
+.sites span{
+    display: block;
+    font-size: 10px;
+    color: #93999F;
+}
+footer{
+    background-color: #1DA1F2;
+    color: #FFFFFF;
+    text-align: center;
+}
+.row ,td:hover{
+    cursor: pointer;
+    background-color: rgb(194, 194, 194);
+    color:#FFFFFF;
+}
